@@ -1,0 +1,242 @@
+
+/*1280, 1024, 992, 768, 600, 480, 320*/
+
+/*************1. home*/
+
+/*@media screen and (max-width: 1200px){
+	.slider__desc{
+		padding-left: 25px;
+	}
+}*/
+@media screen and (max-width: 1161px){
+	.service__list{
+		justify-content: space-around;
+	}
+	.service__item:nth-child(3){
+		border-top: none;
+	}
+}
+@media screen and (max-width: 1141px){
+	.slick-dots{
+		display: none !important;
+	}
+}
+@media screen and (max-width: 1024px){
+	.slider__desc{
+		width: 650px;
+	}
+	
+/**********section number*/
+    .section:after{
+        font-size: 90px;
+    }
+
+/**********left__description*/
+        h2{
+			font-size: 30px;
+			line-height: 32px;
+		}
+		.section-desc{
+			font-size: 19px;
+    		line-height: 25px;
+			margin-top: 17px;
+		}
+		.about__desc{
+			font-size: 14px;
+    		line-height: 22px;
+			margin-top: 30px;
+		}
+/*************section 5.slider*/
+	.flex-container--clients-list{
+		justify-content: space-around;
+	}
+
+}
+
+
+@media only screen and (max-width: 892px){
+	.flex-container--column {
+    	display: flex;
+    	flex-direction: column;
+	}
+		.flex-container > .left,
+		.flex-container > .right{
+			width: 100%;
+		}
+			.section > .inner__section{
+				width: 100%;
+				padding-left: 160px;
+			}
+		
+			.flex-container--about > .right{
+				display: none;
+			}
+			.flex-container--contact > .right {
+				width: 100%;
+			}
+	.padding-top-130 {
+			padding-top: 40px;
+		}
+		.second-section {
+    		padding-bottom: 40px;
+    	}
+ /********portfolio*/
+ 	.portfolio__desc > .bottom {
+    	margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width: 784px){
+/********1. home*/
+	.first-section{
+		overflow: hidden;
+	}
+		.nav{
+			position: absolute;
+			right: -110px;
+			top:0;
+			background: rgba(0,0,0, .5);
+			height: 100vh;
+			transition: all .2s linear;
+		}
+		.responsive-menu{
+			display: block;
+			cursor: pointer;
+		}
+		.nav__list{
+			flex-flow: column nowrap;
+		}
+		.nav__item{
+			margin-left: 0;
+		}
+		.nav__link{
+			padding: 14px;
+			display: block;
+		}
+	.active-menu{
+		right: 0;
+	}
+		.active-button-menu{
+			background: rgba(0, 0, 0, .5);
+			border: 1px solid black;
+			padding: 8px 10px;
+		}
+
+/********1.1. slider*/
+	.slider__desc{
+		width: 520px;
+	}
+		.slider__headline{
+			font-size: 30px;
+		}
+
+/********services*/
+		.service__item:nth-child(2){
+			border-top: none;
+		}
+
+}
+/********5.1 slider*/
+	.flex-container--clients-list {
+    	flex-direction: column;
+    }
+		.slider-left {
+	    padding: 0 0 30px 0 !important;;
+		}
+		.slider-right {
+	    width: 100%;
+		}
+			.slider-right > p {
+		    font-size: 22px;
+			}
+	
+
+@media only screen and (max-width: 600px){
+/********1.1. slider*/
+	.slider__desc{
+		width: 400px;
+	}
+		.slider__headline{
+			font-size: 25px;
+		}
+		.slider__desc > p{
+			font-size: 14px;
+		}
+/******** section settings */
+    .section > .inner__section {
+    	padding-left: 120px;
+    	padding-bottom: 20px;
+	}
+    .section:after {
+    	font-size: 70px;
+	}
+
+@media only screen and (max-width: 480px){
+
+/***********5. slider*/
+	.slider-comments{
+		padding: 100px 20px;
+	}
+		.slider-comments > .slick-prev,
+		.slider-comments > .slick-next{
+			right: 0px !important;
+		}
+		.slider-comments > .slick-prev{
+			left: 0px !important;
+		}
+			.slider-right > p {
+		    	font-size: 16px;
+		    	line-height: 22px
+			}
+			.slider-left > img{
+				margin: auto;
+			}
+/**************7.contact*/
+	.contact .footer{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 375px){
+		.flex-container > .left{
+			padding-right: 0;
+		}
+/********section settings*/
+		.section > .inner__section {
+    		padding-left: 0;
+    		padding-top: 100px;
+		}
+/********1.1. slider*/
+	.slider__desc{
+		width: 300px;
+	}
+		.slider__headline{
+			font-size: 18px;
+			line-height: 24px;
+		}
+		.slider__desc > p{
+			font-size: 12px;
+			line-height: 16px;
+		}
+/********5.1. clients slider*/
+	.right-company, .right-data {
+    	font-size: 12px;
+	}
+		.right-company {
+		    padding-right: 5px;
+		}
+
+}  
+
+@media only screen and (max-width: 320px){
+
+/********1.1. slider*/
+	.slider__desc{
+		width: 260px;
+		padding-left: 27px;
+	}
+		.slider__headline{
+			font-size: 16px;
+			line-height: 22px;
+		} 
+}
