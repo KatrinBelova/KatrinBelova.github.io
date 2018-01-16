@@ -1,5 +1,5 @@
  // When the window has finished loading create our google map below
-// google.maps.event.addDomListener(window, 'load', initMap); 
+
 
 function initMap() {
     var location = { lat: 40.6700, lng: -73.9400};
@@ -30,4 +30,6 @@ function initMap() {
         map: map
     });
 
-}
+};
+
+// google.maps.event.addDomListener(window, 'load', initMap); 
