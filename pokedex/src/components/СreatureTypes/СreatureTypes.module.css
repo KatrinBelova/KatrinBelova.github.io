@@ -1,0 +1,23 @@
+.typesWrapper {
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+}
+
+.chip {
+  margin: 2.5px;
+  font-weight: 600;
+}
+
+.fire {
+  background-color: orange;
+}
+
+/* fire,
+poison,
+grass,
+flying,
+water,
+bug,
+electric,
+ground,
+fairy, */

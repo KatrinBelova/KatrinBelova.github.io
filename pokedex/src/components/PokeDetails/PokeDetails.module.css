@@ -1,0 +1,8 @@
+.detailsWrapper {
+  position: sticky;
+  top: 50px;
+}
+
+.valueColumn {
+  width: 80px;
+}
